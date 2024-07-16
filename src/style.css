@@ -21,7 +21,6 @@ body, html {
 }
  .card {
     background-color: #fff;
-    
     border-bottom: 19px solid #141dbf;
     width: 36vh;
     height: 70vh;
@@ -61,7 +60,7 @@ body, html {
 .profile-img-card-social{
     display: flex;
     height: 40px;
-    margin-left: 2.3vh;
+    margin-left: 2vh;
     margin-top: 6vh;
    
 }
@@ -99,8 +98,66 @@ body, html {
 }
 
 .txt-instrucao{
+    margin-top: 2vh;
     margin-left: -6vh;
-    
     width: 40vh;
-    margin-bottom: -0.1vh;
+    margin-bottom: -0.2px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .profile-img-card {
+        margin-top: -2vh;
+        margin-left:3.6vh;
+        display: flex;
+        height: 28vh;
+        margin-bottom: -3vh;
+    
+       
+        
+    }
+
+
+
+
+    .txt-middle{
+        display: flex;
+       margin-left: 4vh;
+        margin-top: -3vh;
+        flex-direction: column;
+        width: 40vh;
+    }
+    
+
+
+    .card-container.card {
+        margin-top: 9vh;
+        max-width: 350px;
+        padding: 40px 40px;
+        border-radius: 20px;
+    }
+
+    .siga{
+        margin-top: 3vh;
+       display: flex;
+       margin-left: -2vh;
+       margin-right: 5vh;
+       margin-bottom: -6vh;
+       font-family: "Roboto Condensed", sans-serif;
+    }
+    
+
+
+    .card {
+        background-color: #fff;
+        border-bottom: 19px solid #d70505;
+        width: 36vh;
+        height: 70vh;
+        margin: 0 auto 25px;
+        
+       
+        
+        
+    }
 }
