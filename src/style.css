@@ -132,7 +132,7 @@ body, html {
 
 
     .card-container.card {
-        margin-top: 9vh;
+        margin-top: 5.6vh;
         max-width: 350px;
         padding: 40px 40px;
         border-radius: 20px;
@@ -151,7 +151,7 @@ body, html {
 
     .card {
         background-color: #fff;
-        border-bottom: 19px solid #d70505;
+        border-bottom: 19px solid #00eb04;
         width: 36vh;
         height: 70vh;
         margin: 0 auto 25px;
