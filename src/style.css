@@ -14,9 +14,11 @@ body, html {
 }
 
 
-/*
- * Card component
- */
+.inf-conection{
+   
+    margin-top: -5vh;
+    margin-left: 3.5vh;
+}
  .card {
     background-color: #fff;
     
@@ -34,10 +36,11 @@ body, html {
 
 
 .profile-img-card {
-    margin-top: -5vh;
-    margin-left:-1.7vh;
+    margin-top: -3vh;
+    margin-left:3.6vh;
     display: flex;
-    height: 40vh;
+    height: 28vh;
+    margin-bottom: -3vh;
 
    
     
@@ -58,7 +61,8 @@ body, html {
 .profile-img-card-social{
     display: flex;
     height: 40px;
-    margin-left: 2.3vh
+    margin-left: 2.3vh;
+    margin-top: 6vh;
    
 }
 
@@ -80,11 +84,23 @@ body, html {
     width: 40vh;
 }
 
+
+.txt-middle h3{
+   margin-top: -3vh;
+}
+
 .siga{
-    margin-top: 5vh;
+    margin-top: 4vh;
    display: flex;
-   margin-left: -2vh;
+   margin-left: -0.5vh;
    margin-right: 5vh;
-   margin-bottom: -4vh;
+   margin-bottom: -6vh;
    font-family: "Roboto Condensed", sans-serif;
+}
+
+.txt-instrucao{
+    margin-left: -6vh;
+    
+    width: 40vh;
+    margin-bottom: -0.1vh;
 }
